@@ -1,0 +1,15 @@
+
+
+.banner ul li{
+	display: inline-block;
+	width: 108px;
+	height: 40px;
+	background: #838280;
+	border-radius: 3px;
+	line-height: 40px;
+	font-size: 20px;
+	color: #fff;
+	transition: background-color 0.3s;
+	text-align: center;
+	margin-left: 4px;
+}

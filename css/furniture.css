@@ -1,0 +1,154 @@
+content{
+	display: block;
+	overflow: hidden;
+	height: auto;
+	width: auto;
+}
+.banner{
+	width: 1190px;
+	height: 245px;
+	position: relative;
+	background-image: url(../img/classifyBanner_1190dpi.jpg);
+	margin-top: 38px;
+	margin: 0 auto;
+}
+.banner h1{
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	margin-top: -30px;
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+	color: #fff;
+}
+.banner ul{
+	height: 40px;
+	width: 100%;
+	position: absolute;
+	bottom: 12px;
+	list-style: none;
+	padding: 0.6%;
+}
+.banner ul li:hover{
+	background: #00ff31;
+}
+.filtle{
+	display: block;
+	position: absolute;
+	width: 1190px;
+	height: 64px;
+	left: 50%;
+	margin-left: -595px;
+	margin-top: 50px;
+	z-index: 10;
+	border-bottom: 1px solid #ccc;
+	opacity: 0.82;
+}
+.filtle div{
+	width: 130px;
+	border: 1px solid transparent;
+	padding: 0 14px;
+	margin-left: 12px;
+	float: left;
+}
+.filtle div a{
+	width: 100%;
+	height: 62px;
+	line-height: 62px;
+	text-align: center;
+	font-size: 20px;
+	color: #333;
+}
+.filtle div ul{
+	background: #fff;
+	margin-left: -14px;
+	display: block;
+	box-sizing: border-box;
+	width: 130px;
+	position: absolute;
+	list-style: none;
+	z-index: 99;
+	text-align: center;
+	display: list-item;
+	line-height: 46px;
+	font-size: 18px;
+	border: 1px solid #ddd;
+	display: none;
+
+}
+.filtle div ul li{
+	width: 100%;
+	margin-left: -20px;
+}
+.filtle div ul li:hover{
+	color: #ff0000;
+}
+.filtle div:hover {
+	border: 1px solid #ddd;
+}
+.filtle div:hover ul{
+	display: block;
+}
+.filtle div:hover a{
+	border-bottom: 1px solid #ff0000;
+	background: #fff;
+}
+.choose{
+	display: block;
+	width: 1190px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: 138px;
+}
+.choose a{
+	width: 366px;
+	height: auto;
+	margin-right: 30px;
+	margin-bottom: 26px;
+	overflow: hidden;
+	box-sizing: border-box;
+	float: left;
+	text-decoration: none;
+	border: 1px solid #ffffff;
+}
+.choose a:hover{
+	border: 1px solid #00ff3b;
+}
+.goodsImg{
+	box-sizing: border-box;
+	height: 364px;
+	width: 364px;
+	border: 1px solid #acacac;
+	overflow: hidden;
+}
+.goodsImg img{
+   height: 366px;
+	width: 366px;
+}
+.imgtext {
+	height: 64px;
+	line-height: 64px;
+	white-space: normal;
+}
+.goodsname{
+	margin-left: 30px;
+	display: inline-block;
+	text-align: center;
+	font-size: 18px;
+}
+.oldprice {
+	display: inline-block;
+	font-weight: bold;
+	margin-left: 30px;
+	font-size: 22px;
+	text-decoration: line-through;
+}
+.newprice {
+	display: inline-block;
+	font-weight: bold;
+	margin-left: 30px;
+	font-size: 22px;
+	color: #ff0000;
+}
